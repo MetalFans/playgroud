@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css">
+		<script src="cart.js"></script>
+		<title>Apriori</title>
+	</head>
+	<body>
+		<nav>
+			<div>
+				<input type="file" id="myFile">
+			</div>	
+			<div class="support">
+				<input id="input" placeholder="輸入支持度">
+			</div >
+			<div class="support">
+				<button id="button">開始計算</button>
+			</div>			
+		</nav>
+		<section id="header">
+			<table id="title" width="100%">
+				<tr id="head">
+						<td class="big"></td>
+						<td class="big"></td>
+						<td class="fixed">請上傳CSV檔或者以逗號分隔之文字檔</td>
+						<td class="fixed"></td>
+						<td class="fixed"></td>
+				</tr>
+			</table>  
+		</section>
+		<section id="container">
+			<p id="wtf">
+				Apriori Algorithm
+			</p>
+			<p id="swag">
+				無符合條件之結果。
+			</p>
+			<div id="sample">
+				<div id="spTitle">
+					範例格式
+				</div>
+				<div>
+					<span class="item">啤酒</span>
+					<span class="item">尿布</span>
+					<span class="item">木炭</span>
+				</div>
+				<div>
+					<span>0</span>
+					<span>0</span>
+					<span>1</span>
+				</div>
+				<div>
+					<span>1</span>
+					<span>1</span>
+					<span>0</span>
+				</div>
+				<div>
+					<span>0</span>
+					<span>1</span>
+					<span>1</span>
+				</div>
+				<div>
+					<span>1</span>
+					<span>0</span>
+					<span>1</span>
+				</div>
+				<div>
+					<span>0</span>
+					<span>1</span>
+					<span>1</span>
+				</div>			
+			</div>
+			<table id="table" width="100%">
+			</table>			
+		</section>
+	</body>
+</html>

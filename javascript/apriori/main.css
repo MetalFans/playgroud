@@ -1,0 +1,76 @@
+body{
+	margin:0px;
+	background:#fceda8;
+}
+nav div{
+	margin:0px 0px 10px 10px;
+	padding: 5px;
+}
+.support{
+	display: inline-block;
+}
+.support input{
+	border:0px;
+	border-radius: 2px;
+}
+#myFile{
+	font-size:13px;
+	color:#eee;
+	margin-top:10px; 
+}
+nav{
+	margin:0px;
+	background:#acba9d;
+}
+#header{
+	margin:0px;
+	background:#b53f45;	
+}
+
+#title{
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	height:30px;
+	color:#e6e6d5;
+	text-align: center;
+}
+#container{
+	height:0px;
+	margin:0px;
+	text-align: center;
+}
+#table{
+	text-align: center;
+	margin:0px;
+	padding: 0px 5px 5px 5px;
+	color:#38424e;
+}
+section p{
+	font: bold 72px Lucida Console;
+	text-shadow: 2px 2px 2px #ccc;
+	text-align: center;
+}
+#sample{
+	text-align: center;
+}
+span{
+	text-shadow: 1px 1px 1px #eee;
+	display: inline-block;
+	margin: 0px 30px 10px 30px;
+	font: normal 18px Tahoma;
+	color:#888;
+}
+.item{
+	display: inline-block;
+	margin:0px 18px 10px 18px;
+}
+#spTitle{
+	text-shadow: 1px 1px 1px #eee;
+	font:normal 18px Tahoma;
+	margin: 20px;
+	color: #888;
+}
+#swag{
+	font: normal 20px Tahoma;
+	display: none;
+}
